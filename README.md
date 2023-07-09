@@ -1,7 +1,6 @@
-## Youtube
-```Internationalization (i18n) your Nextjs 13 app using i18next
-AnilKumarKrishnashetty [https://www.youtube.com/watch?v=QOp8G14AsfI](https://www.youtube.com/watch?v=QOp8G14AsfI)
-```
+## Youtube - AnilKumarKrishnashetty
+`Internationalization (i18n) your Nextjs 13 app using i18next`
+[https://www.youtube.com/watch?v=QOp8G14AsfI](https://www.youtube.com/watch?v=QOp8G14AsfI)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
