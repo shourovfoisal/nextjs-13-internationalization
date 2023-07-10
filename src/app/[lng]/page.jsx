@@ -1,11 +1,14 @@
 import Link from 'next/link'
+import { useTranslation } from '../i18n'
 
-export default function Page({ params: { lng } }) {
+export default async function Page({ params: { lng } }) {
+  const {t} = await useTranslation(lng);
+
   return (
     <>
-      <h1>Hi there!</h1>
+      <h1>{t('title')}</h1>
       <Link href={`/${lng}/second-page`}>
-        second page
+        {t('to-second-page')}
       </Link>
     </>
   )
