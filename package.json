@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "accept-language": "^3.0.18",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
     "i18next": "^23.2.8",
