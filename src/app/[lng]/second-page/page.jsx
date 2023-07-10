@@ -1,5 +1,6 @@
 import { useTranslation } from '@/app/i18n'
 import Link from 'next/link'
+import { Footer } from '../components/Footer';
 
 export default async function Page({ params: { lng } }) {
 
@@ -11,6 +12,7 @@ export default async function Page({ params: { lng } }) {
       <Link href={`/${lng}`}>
         {t('back-to-home')}
       </Link>
+      <Footer lng={lng}/>
     </>
   )
 }
